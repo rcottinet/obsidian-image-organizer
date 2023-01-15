@@ -5,7 +5,10 @@ const DEFAULT_HANDLED_FILE_EXTENSION: Record<string, boolean> = {
 	'jpg': true,
 	'pdf': true,
 	'jpeg': true,
-	'png': true
+	'png': true,
+	'mp4': true,
+	'gif': true,
+	'mov': true
 }
 
 const DEFAULT_TARGET_OPTIONS: Record<string, string> = {
@@ -131,9 +134,10 @@ class ImageOrganizerPluginSettingTab extends PluginSettingTab {
 
 		let extensionRecords = this.plugin.settings.handledFileExtension
 
-		containerEl.createEl('h2', { text: 'The plugin is activated for the following extension' });
+		containerEl.createEl('h2', { text: 'The plugin is activated for the following extensions' });
 
 		for (const key in extensionRecords) {
+			console.log(key)
 			const value = extensionRecords[key];
 			new Setting(containerEl)
 				.setName(key)
