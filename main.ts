@@ -50,8 +50,6 @@ export default class ImageOrganizerPlugin extends Plugin {
 			/**
 			 * Getting the active file to get the current path
 			 */
-
-
 			let activeFile = app.workspace.getActiveFile();
 			if (!activeFile) {
 				return
