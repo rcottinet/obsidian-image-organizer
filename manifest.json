@@ -1,11 +1,11 @@
 {
-	"id": "obsidian-sample-plugin",
-	"name": "Sample Plugin",
+	"id": "obsidian-image-organizer",
+	"name": "Image Organizer",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "This is a sample plugin for Obsidian. This plugin demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
+	"description": "This is a plugin for Obsidian. This plugin organize how and where media (image/pdf/video...) are saved.",
+	"author": "rcottinet",
+	"authorUrl": "https://github.com/rcottinet",
 	"fundingUrl": "https://obsidian.md/pricing",
 	"isDesktopOnly": false
 }

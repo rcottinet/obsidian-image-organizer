@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "obsidian-image-organizer",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "This is a plugin for Obsidian. This plugin organize how and where media (image/pdf/video...) are saved when their are drop on a file.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
