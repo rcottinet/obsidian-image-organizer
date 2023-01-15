@@ -9,7 +9,7 @@ This is an Obsidian plugin to choose where media (image or pdf) are saved by def
 
 ![demo](./demo/demo.gif)
 
-![settings](./demo/settings-screenshot.gif)
+![settings](./demo/settings-screenshot.png)
 
 ## How to use
 
