@@ -7,7 +7,11 @@ This is an Obsidian plugin to choose where media (image or pdf) are saved by def
 - When a new media is add to a file, it will be saved in the active file folder (default) or at the root folder level
 - The media can be saved in a specify folder (by default in 'media' folder)
 
+## Demo :
+
 ![demo](./demo/demo.gif)
+
+## Settings :
 
 ![settings](./demo/settings-screenshot.png)
 
